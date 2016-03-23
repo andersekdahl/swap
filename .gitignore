@@ -238,3 +238,6 @@ _Pvt_Extensions
 
 # NPM cache
 .npm-cache
+
+# git mergetool
+*.orig

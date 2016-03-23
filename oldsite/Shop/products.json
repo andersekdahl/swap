@@ -1,0 +1,58 @@
+[
+   {
+      "Category":0,
+      "DiscountPrice":90,
+      "Id":1,
+      "ImageUrl":"/Content/images/pc.jpg",
+      "Price":100.0,
+      "ShortDescription":"Fitted cotton shirt"
+   },
+   {
+      "Category":0,
+      "DiscountPrice":120,
+      "Id":2,
+      "ImageUrl":"/Content/images/pc1.jpg",
+      "Price":150.0,
+      "ShortDescription":"Cotton t-shirt"
+   },
+   {
+      "Category":1,
+      "DiscountPrice":190,
+      "Id":3,
+      "ImageUrl":"/Content/images/pc2.jpg",
+      "Price":200.0,
+      "ShortDescription":"Flannel shirt"
+   },
+   {
+      "Category":0,
+      "DiscountPrice":80,
+      "Id":4,
+      "ImageUrl":"/Content/images/pc3.jpg",
+      "Price":100.0,
+      "ShortDescription":"Short-sleeved shirt"
+   },
+   {
+      "Category":1,
+      "DiscountPrice":50,
+      "Id":5,
+      "ImageUrl":"/Content/images/pc4.jpg",
+      "Price":100.0,
+      "ShortDescription":"Cotton t-shirt"
+   },
+   {
+      "Category":1,
+      "DiscountPrice":800,
+      "Id":6,
+      "ImageUrl":"/Content/images/pc5.jpg",
+      "Price":1000.0,
+      "ShortDescription":"Regular fit shirt"
+   },
+   {
+      "Category":0,
+      "DiscountPrice":450,
+      "Id":7,
+      "ImageUrl":"/Content/images/pc6.jpg",
+      "Price":500.0,
+      "ShortDescription":"Checked cotton shirt"
+   }
+]
