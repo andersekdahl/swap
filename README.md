@@ -5,8 +5,8 @@ the workshop.
 
 This repo contains three folders:
 
-### oldschool
-`old-school` is just an example implementation of how it often looks with Razor and jQuery. Run it by opening it up in Visual Studio and debug it.
+### oldsite
+This is the old site, built using vanilla MVC, Razor, Bootstrap and jQuery. Run it by opening it up in Visual Studio and debug it.
 You can reuse the C# code from this project, but you shouldn't use any frontend code.
 
 ### boilerplate
