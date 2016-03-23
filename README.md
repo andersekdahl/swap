@@ -19,5 +19,7 @@ Use this if you get stuck and nobody is around to ask for help, or if you just w
 
 1. Open the `boilerplate` folder
 1. Run `SetupIIS.cmd` which creates an IIS site pointed to that folder
-1. Run `npmw.cmd start` which downloads Node and Npm, and runs `npm install` and then `npm start` to start the dev server
+1. Run `npmw.cmd start` (which downloads Node and Npm and runs `npm install` and `npm start` to start the dev server)
+1. Open the solution `boilerplate.sln` in Visual Studio and build it
+1. Surf to `http://localhost:8088`
 1. Start hacking!
