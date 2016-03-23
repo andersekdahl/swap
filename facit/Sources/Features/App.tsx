@@ -5,13 +5,16 @@ import ProductType from './Products/Models/Product.type';
 import CartType from './ShoppingCart/Models/Cart.type';
 import CartProductRequest from './ShoppingCart/Models/CartProductRequest.type';
 
+type PropType = {
+}
+
 type StateType = {
   products?: ProductType[];
   cart?: CartType;
 }
 
-export default class App extends React.Component<void, StateType> {
-  constructor(props: void) {
+export default class App extends React.Component<PropType, StateType> {
+  constructor(props: PropType) {
     super(props);
 
     this.state = {
