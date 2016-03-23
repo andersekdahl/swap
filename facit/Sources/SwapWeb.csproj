@@ -21,7 +21,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
-    <TypeScriptToolsVersion>1.7</TypeScriptToolsVersion>
+    <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -176,6 +176,7 @@
     <Content Include="Content\fonts\Oxygen-Regular.ttf" />
     <Content Include="Content\fonts\Ubuntu-Bold.ttf" />
     <Content Include="Content\fonts\Ubuntu-Regular.ttf" />
+    <Content Include="tsconfig.json" />
     <None Include="Views\Products\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -190,6 +191,21 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Features\App.tsx" />
+    <TypeScriptCompile Include="Features\entry.tsx" />
+    <TypeScriptCompile Include="Features\Products\List.tsx" />
+    <TypeScriptCompile Include="Features\Products\Models\Product.type.ts" />
+    <TypeScriptCompile Include="Features\ShoppingCart\MiniCart.tsx" />
+    <TypeScriptCompile Include="Features\ShoppingCart\Models\Cart.type.ts" />
+    <TypeScriptCompile Include="Features\ShoppingCart\Models\CartItem.type.ts" />
+    <TypeScriptCompile Include="Features\ShoppingCart\Models\CartProductRequest.type.ts" />
+    <TypeScriptCompile Include="typings\classnames.d.ts" />
+    <TypeScriptCompile Include="typings\react-addonts-css-transition-group.d.ts" />
+    <TypeScriptCompile Include="typings\react-dom.d.ts" />
+    <TypeScriptCompile Include="typings\react.d.ts" />
+    <TypeScriptCompile Include="typings\whatwg-fetch.d.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
