@@ -1,0 +1,19 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "typescript.tsdk": ".\\node_modules\\typescript\\lib",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "Sources/Avensia.Manager/*": true,
+        "Sources/Avensia.Shop/assets/*": true,
+        "tools/": true,
+        "Publish/": true,
+        "Artifacts/": true,
+        "**/bin/": true,
+        "**/obj/": true,
+        "**.orig": true,
+        "**.dll": true,
+        "**.log": true,
+        "**/packages/": true
+    }
+}
