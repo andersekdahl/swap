@@ -1,4 +1,5 @@
 import ProductType from './Models/Product.type';
+const styles = require('./list.scss');
 
 type PropType = {
   products: ProductType[];
@@ -6,16 +7,17 @@ type PropType = {
 }
 
 export default (props: PropType) => (
-  <ul>
-  {props.products.map(product => (
-    <li key={product.id}>
-      <p>{product.shortDescription}</p>
-      <p>{product.category}</p>
-      <p>{product.price}</p>
-      <img src={product.imageUrl} />
-
-      <button onClick={() => props.addToCart(product)}>Lägg i kundkorg</button>
-    </li>
-  ))}
+  <ul className={styles.base}>
+    {props.products.map(product => (
+      <li key={product.id} className={styles.item}>
+        <div className={styles.media}>
+          <img src={product.imageUrl} />
+        </div>
+        <span className={styles.description}>{product.shortDescription}</span>
+        <span className={styles.category}>{product.category}</span>
+        <span className={styles.price}>{product.price}</span>
+        <button onClick={() => props.addToCart(product)} className={styles.addtocart}>Lägg i kundkorg</button>
+      </li>
+    ))}
   </ul>
 );

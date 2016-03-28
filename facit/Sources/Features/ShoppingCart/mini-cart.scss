@@ -1,0 +1,56 @@
+.base {
+  composes: depth from '../Shared/depth.scss';
+  position: absolute;
+  right: 0;
+  width: 100vw;
+  max-width: 20rem;
+  color: black;
+  background: white;
+  line-height: 2rem;
+}
+
+.items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  padding: .5rem;
+
+  &:nth-child(odd) {
+    background: whitesmoke;
+  }
+}
+
+.description {
+  flex: 1;
+}
+
+.quantity {
+  margin: 0 .5rem;
+}
+
+.decrease,
+.increase {
+  width: 2rem;
+  text-align: center;
+  color: white;
+  background: grey;
+  border-radius: .25rem;
+  transition: background 200ms ease-out;
+
+  &:hover,
+  &:focus {
+    background: dimgrey;
+  }
+}
+
+.total {
+  composes: currency from '../Shared/currency.scss';
+  display: block;
+  padding: .5rem;
+  text-align: right;
+}
