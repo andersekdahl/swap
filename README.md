@@ -12,8 +12,9 @@ You can reuse the C# code from this project, but you shouldn't use any frontend 
 ### boilerplate
 `boilerplate` contains just enough things to get you up and running. This folder is where you'll build your implementation.
 
-### facit
-Use this if you get stuck and nobody is around to ask for help, or if you just want to get inspiration.
+### reference-implementation
+Use this if you get stuck and nobody is around to ask for help, or if you just want to get inspiration. Note that this is by no means
+"the correct way" or "the best way", it's just a reference implementation.
 
 ## Getting started
 
