@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using System;
+using System.Web.Mvc;
 using ScopeWeb.Features.Products.Services;
 using ScopeWeb.Extensions;
 using ScopeWeb.Features.Products.Models;
@@ -24,7 +25,7 @@ namespace ScopeWeb.Features.Products.Controllers
         [Route("products")]
         public ActionResult GetProducts()
         {
-            return this.JsonNet(_productService.GetAll());
+            throw new NotImplementedException();
         }
     }
 }
