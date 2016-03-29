@@ -26,12 +26,12 @@ export default () => (
         <button type="button" className={appStyles.toggler}></button>
         <div className={minicartStyles.base}>
           <ul className={minicartStyles.items}>
-              <li className={minicartStyles.item}>
-                <span className={minicartStyles.description}></span>
-                <button type="button" className={minicartStyles.decrease}>-</button>
-                <span className={minicartStyles.quantity}></span>
-                <button type="button" className={minicartStyles.increase}>+</button>
-              </li>
+            <li className={minicartStyles.item}>
+              <span className={minicartStyles.description}></span>
+              <button type="button" className={minicartStyles.decrease}>-</button>
+              <span className={minicartStyles.quantity}></span>
+              <button type="button" className={minicartStyles.increase}>+</button>
+            </li>
           </ul>
           <span className={minicartStyles.total}></span>
         </div>
