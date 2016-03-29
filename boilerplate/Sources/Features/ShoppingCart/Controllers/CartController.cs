@@ -2,7 +2,7 @@
 using System.Web.Mvc;
 using ScopeWeb.Features.Products.Services;
 using ScopeWeb.Features.ShoppingCart.Models;
-using ScopeWeb.ShoppingCart.Services;
+using ScopeWeb.Features.ShoppingCart.Services;
 
 namespace ScopeWeb.Features.ShoppingCart.Controllers
 {

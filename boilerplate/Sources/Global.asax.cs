@@ -1,6 +1,6 @@
 ﻿using Autofac;
 using Autofac.Integration.Mvc;
-using ScopeWeb.ShoppingCart.Services;
+using ScopeWeb.Features.ShoppingCart.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
