@@ -1,0 +1,31 @@
+{
+    "buildOnSave": false,
+    "compileOnSave": false,
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "jsx": "preserve",
+        "target": "es6",
+        "module": "es6",
+        "noFallthroughCasesInSwitch": true,
+        "noEmit": true,
+        "moduleResolution": "node"
+    },
+    "formatCodeOptions": {
+        "indentSize": 2,
+        "tabSize": 2,
+        "newLineCharacter": "\r\n",
+        "convertTabsToSpaces": true,
+        "insertSpaceAfterCommaDelimiter": true,
+        "insertSpaceAfterSemicolonInForStatements": true,
+        "insertSpaceBeforeAndAfterBinaryOperators": true,
+        "insertSpaceAfterKeywordsInControlFlowStatements": true,
+        "insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+        "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+        "placeOpenBraceOnNewLineForFunctions": false,
+        "placeOpenBraceOnNewLineForControlBlocks": false
+    },
+    "atom": {
+        "rewriteTsconfig": false
+    }
+}

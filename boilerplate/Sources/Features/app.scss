@@ -1,0 +1,79 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css);
+
+* {
+  box-sizing: border-box;
+
+  &:before,
+  &:after {
+    box-sizing: inherit;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  padding: 0;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+// Embrace context stacking without `z-index` by having `<header />` after `<main />`
+.layout {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.main {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  // Centers content with max width 80rem
+  padding: 0 calc(50% - 40rem);
+  color: white;
+  background: black;
+}
+
+.logotype {
+  height: inherit;
+
+  img {
+    height: inherit;
+    padding: 1rem 0;
+  }
+}
+
+.minicart {
+  position: relative;
+  width: 4rem;
+  height: inherit;
+}
+
+.toggler {
+  width: inherit;
+  height: inherit;
+  transition: color 200ms ease-out, background 200ms ease-out;
+
+  &:hover,
+  &:focus {
+    color: black;
+    background: white;
+  }
+
+  &:before {
+    content: '\1F3EC';
+    display: block;
+    width: inherit;
+    height: inherit;
+    text-align: center;
+    line-height: 4rem;
+  }
+}
