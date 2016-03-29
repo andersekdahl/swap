@@ -1,4 +1,4 @@
-@import './Shared/colors';
+@import '../Shared/colors';
 
 .base {
   display: flex;
@@ -12,7 +12,7 @@
 }
 
 .item {
-  composes: depth from './Shared/depth.scss';
+  composes: depth from '../Shared/depth.scss';
   flex: 1 1 calc(5rem + 15%);
   display: flex;
   flex-wrap: wrap;
@@ -58,7 +58,7 @@
 }
 
 .price {
-  composes: currency from './Shared/currency.scss';
+  composes: currency from '../Shared/currency.scss';
   margin: .5rem;
 }
 

@@ -1,7 +1,7 @@
-@import './Shared/colors';
+@import '../Shared/colors';
 
 .base {
-  composes: depth from './Shared/depth.scss';
+  composes: depth from '../Shared/depth.scss';
   position: absolute;
   right: 0;
   width: 100vw;
@@ -47,7 +47,7 @@
 }
 
 .total {
-  composes: currency from './Shared/currency.scss';
+  composes: currency from '../Shared/currency.scss';
   display: block;
   padding: .5rem;
   text-align: right;

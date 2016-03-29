@@ -1,7 +1,7 @@
 const logotype = require('./Shared/logotype.svg');
 const appStyles = require('./app.scss');
-const minicartStyles = require('./mini-cart.scss');
-const listStyles = require('./list.scss');
+const minicartStyles = require('./ShoppingCart/mini-cart.scss');
+const listStyles = require('./Products/list.scss');
 
 export default () => (
   <div className={appStyles.layout}>
