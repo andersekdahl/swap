@@ -18,9 +18,12 @@ Use this if you get stuck and nobody is around to ask for help, or if you just w
 
 ## Getting started
 
+1. Install TypeScript for Visual Studio 2015: https://www.microsoft.com/en-us/download/details.aspx?id=48593. If you don't want to use VS or don't have VS 2015, you can use
+   Visual Studio Code (https://code.visualstudio.com/) or Atom (https://atom.io) with atom-typescript (https://atom.io/packages/atom-typescript)
 1. Open the `boilerplate` folder
 1. Run `SetupIIS.cmd` which creates an IIS site pointed to that folder
 1. Run `npmw.cmd start` (which downloads Node and Npm and runs `npm install` and `npm start` to start the dev server)
 1. Open the solution `boilerplate.sln` in Visual Studio and build it
 1. Surf to `http://localhost:8088`
+1. Open `Sources/Features/App.tsx` and add/remove something and save then switch to the browser and see that it reloaded
 1. Start hacking!
