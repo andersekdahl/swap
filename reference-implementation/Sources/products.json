@@ -1,6 +1,6 @@
 [
    {
-      Category":"Man",
+      "Category":"Man",
       "DiscountPrice":90,
       "Id":1,
       "ImageUrl":"/Content/images/pc.jpg",
@@ -8,7 +8,7 @@
       "ShortDescription":"Fitted cotton shirt"
    },
    {
-      Category":"Man",
+      "Category":"Man",
       "DiscountPrice":120,
       "Id":2,
       "ImageUrl":"/Content/images/pc1.jpg",
@@ -16,7 +16,7 @@
       "ShortDescription":"Cotton t-shirt"
    },
    {
-      Category":"Woman",
+      "Category":"Woman",
       "DiscountPrice":190,
       "Id":3,
       "ImageUrl":"/Content/images/pc2.jpg",
@@ -24,7 +24,7 @@
       "ShortDescription":"Flannel shirt"
    },
    {
-      Category":"Man",
+      "Category":"Man",
       "DiscountPrice":80,
       "Id":4,
       "ImageUrl":"/Content/images/pc3.jpg",
@@ -32,7 +32,7 @@
       "ShortDescription":"Short-sleeved shirt"
    },
    {
-      Category":"Woman",
+      "Category":"Woman",
       "DiscountPrice":50,
       "Id":5,
       "ImageUrl":"/Content/images/pc4.jpg",
@@ -40,7 +40,7 @@
       "ShortDescription":"Cotton t-shirt"
    },
    {
-      Category":"Woman",
+      "Category":"Woman",
       "DiscountPrice":800,
       "Id":6,
       "ImageUrl":"/Content/images/pc5.jpg",
@@ -48,7 +48,7 @@
       "ShortDescription":"Regular fit shirt"
    },
    {
-      Category":"Man",
+      "Category":"Man",
       "DiscountPrice":450,
       "Id":7,
       "ImageUrl":"/Content/images/pc6.jpg",
