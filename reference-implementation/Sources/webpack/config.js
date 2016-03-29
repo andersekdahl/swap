@@ -2,7 +2,7 @@
 
 var mode = require('./mode');
 
-var devPort = process.env.WEBPACK_DEVPORT || 8088;
+var devPort = process.env.WEBPACK_DEVPORT || 8089;
 
 var publicPath = '/';
 if (mode.IS_HOT) {
@@ -37,7 +37,7 @@ module.exports = {
 
   devServer: {
     proxy: {
-      '*': 'http://127.0.0.1:15001',
+      '*': 'http://127.0.0.1:15002',
     },
     port: devPort,
     host: '0.0.0.0',
