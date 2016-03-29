@@ -1,3 +1,4 @@
+@import './Shared/colors';
 @import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css);
 
 * {
@@ -7,6 +8,10 @@
   &:after {
     box-sizing: inherit;
   }
+}
+
+body {
+  background: $monochrome;
 }
 
 img {
@@ -33,13 +38,14 @@ button {
 }
 
 .header {
+  composes: depth from './Shared/depth.scss';
   display: flex;
   justify-content: space-between;
   height: 4rem;
   // Centers content with max width 80rem
   padding: 0 calc(50% - 40rem);
   color: white;
-  background: black;
+  background: $primary;
 }
 
 .logotype {
@@ -64,8 +70,7 @@ button {
 
   &:hover,
   &:focus {
-    color: black;
-    background: white;
+    background: $primary--dark;
   }
 
   &:before {

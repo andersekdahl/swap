@@ -14,8 +14,8 @@ export default (props: PropType) => (
           <img src={product.imageUrl} />
         </div>
         <span className={styles.description}>{product.shortDescription}</span>
-        <span className={styles.category}>{product.category}</span>
         <span className={styles.price}>{product.price}</span>
+        <span className={styles.category}>{product.category}</span>
         <button onClick={() => props.addToCart(product)} className={styles.addtocart}>Lägg i kundkorg</button>
       </li>
     ))}

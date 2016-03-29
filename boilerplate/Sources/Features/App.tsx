@@ -12,8 +12,8 @@ export default () => (
             <img />
           </div>
           <span className={listStyles.description}></span>
-          <span className={listStyles.category}></span>
           <span className={listStyles.price}></span>
+          <span className={listStyles.category}></span>
           <button className={listStyles.addtocart}></button>
         </li>
       </ul>

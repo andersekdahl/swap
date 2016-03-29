@@ -1,12 +1,14 @@
+@import './Shared/colors';
+
 .base {
   composes: depth from './Shared/depth.scss';
   position: absolute;
   right: 0;
   width: 100vw;
   max-width: 20rem;
-  color: black;
-  background: white;
   line-height: 2rem;
+  color: black;
+  background: $monochrome;
 }
 
 .items {
@@ -19,10 +21,6 @@
   display: flex;
   justify-content: center;
   padding: .5rem;
-
-  &:nth-child(odd) {
-    background: whitesmoke;
-  }
 }
 
 .description {
@@ -38,13 +36,13 @@
   width: 2rem;
   text-align: center;
   color: white;
-  background: grey;
+  background: $secondary;
   border-radius: .25rem;
   transition: background 200ms ease-out;
 
   &:hover,
   &:focus {
-    background: dimgrey;
+    background: $secondary--dark;
   }
 }
 
@@ -53,4 +51,6 @@
   display: block;
   padding: .5rem;
   text-align: right;
+  color: white;
+  background: $primary;
 }

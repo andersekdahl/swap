@@ -1,3 +1,5 @@
+@import '../Shared/colors';
+
 .base {
   display: flex;
   flex-wrap: wrap;
@@ -12,8 +14,11 @@
 .item {
   composes: depth from '../Shared/depth.scss';
   flex: 1 1 calc(5rem + 15%);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   margin: 0 .5rem 1rem;
-  text-align: center;
+  background: white;
 
   &:hover {
     @extend %card-hover;
@@ -21,7 +26,8 @@
 }
 
 .media {
-  margin: 0 0 1rem;
+  align-self: flex-start;
+  width: 100%;
   overflow: hidden;
 
   img {
@@ -35,38 +41,37 @@
   }
 }
 
-.description {
-  display: block;
-  margin: 0 0 1rem;
-  font-weight: bold;
+.category {
+  margin: .5rem;
+  padding: .125rem;
+  font-size: .75rem;
+  border-radius: .25rem;
+  border: thin solid $monochrome--dark;
+  background: $monochrome;
 }
 
-.category {
-  display: inline-block;
-  margin: 0 1rem 1rem 0;
-  padding: .125rem;
-  vertical-align: text-top;
-  font-size: .75rem;
-  color: white;
-  border-radius: .25rem;
-  background: dimgrey;
+.description {
+  flex: 1 0 10rem;
+  max-width: 100%;
+  padding: .5rem;
+  font-weight: bold;
 }
 
 .price {
   composes: currency from '../Shared/currency.scss';
-  display: inline-block;
-  margin: 0 0 1rem;
+  margin: .5rem;
 }
 
 .addtocart {
-  display: block;
+  align-self: flex-end;
   width: 100%;
   padding: 1rem;
-  background: darkorange;
+  color: white;
+  background: $secondary;
   transition: background 200ms ease-out;
 
   &:hover,
   &:focus {
-    background: orange;
+    background: $secondary--dark;
   }
 }
