@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SwapWeb.Features.ShoppingCart.Models
+namespace ScopeWeb.Features.ShoppingCart.Models
 {
     public class Cart
     {

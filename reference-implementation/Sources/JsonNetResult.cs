@@ -6,7 +6,7 @@ using System.Web.Mvc;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace SwapWeb
+namespace ScopeWeb
 {
     public class JsonNetResult : ActionResult
     {

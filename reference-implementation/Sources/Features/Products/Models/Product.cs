@@ -1,4 +1,4 @@
-﻿namespace SwapWeb.Features.Products.Models
+﻿namespace ScopeWeb.Features.Products.Models
 {
     public class Product
     {

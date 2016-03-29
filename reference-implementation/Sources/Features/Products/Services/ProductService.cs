@@ -3,9 +3,9 @@ using System.IO;
 using System.Linq;
 using System.Web;
 using Newtonsoft.Json;
-using SwapWeb.Features.Products.Models;
+using ScopeWeb.Features.Products.Models;
 
-namespace SwapWeb.Features.Products.Services
+namespace ScopeWeb.Features.Products.Services
 {
     public class ProductService : IProductService
     {

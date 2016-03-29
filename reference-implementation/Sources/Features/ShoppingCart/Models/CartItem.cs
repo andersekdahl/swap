@@ -1,6 +1,6 @@
-﻿using SwapWeb.Features.Products.Models;
+﻿using ScopeWeb.Features.Products.Models;
 
-namespace SwapWeb.Features.ShoppingCart.Models
+namespace ScopeWeb.Features.ShoppingCart.Models
 {
     public class CartItem
     {

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SwapWeb.Features.ShoppingCart.Models;
+using ScopeWeb.Features.ShoppingCart.Models;
 
-namespace SwapWeb.ShoppingCart.Services
+namespace ScopeWeb.ShoppingCart.Services
 {
     public class CartService : ICartService
     {

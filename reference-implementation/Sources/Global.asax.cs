@@ -1,6 +1,6 @@
 ﻿using Autofac;
 using Autofac.Integration.Mvc;
-using SwapWeb.ShoppingCart.Services;
+using ScopeWeb.ShoppingCart.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace SwapWeb
+namespace ScopeWeb
 {
     public class MvcApplication : System.Web.HttpApplication
     {

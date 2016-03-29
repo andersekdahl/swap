@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace SwapWeb.Extensions
+namespace ScopeWeb.Extensions
 {
     public static class StringExtensions
     {

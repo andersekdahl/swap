@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Linq;
 using System.Web.Mvc;
-using SwapWeb.Extensions;
-using SwapWeb.Features.Products.Services;
-using SwapWeb.Features.ShoppingCart.Models;
-using SwapWeb.ShoppingCart.Services;
+using ScopeWeb.Extensions;
+using ScopeWeb.Features.Products.Services;
+using ScopeWeb.Features.ShoppingCart.Models;
+using ScopeWeb.ShoppingCart.Services;
 
-namespace SwapWeb.Features.ShoppingCart.Controllers
+namespace ScopeWeb.Features.ShoppingCart.Controllers
 {
     [RoutePrefix("cart")]
     public class CartController : Controller
