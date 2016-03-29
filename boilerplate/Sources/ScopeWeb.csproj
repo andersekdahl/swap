@@ -206,9 +206,7 @@
   <ItemGroup>
     <TypeScriptCompile Include="Features\App.tsx" />
     <TypeScriptCompile Include="Features\entry.tsx" />
-    <TypeScriptCompile Include="Features\Products\List.tsx" />
     <TypeScriptCompile Include="Features\Products\Models\Product.type.ts" />
-    <TypeScriptCompile Include="Features\ShoppingCart\MiniCart.tsx" />
     <TypeScriptCompile Include="Features\ShoppingCart\Models\Cart.type.ts" />
     <TypeScriptCompile Include="Features\ShoppingCart\Models\CartItem.type.ts" />
     <TypeScriptCompile Include="Features\ShoppingCart\Models\CartProductRequest.type.ts" />
