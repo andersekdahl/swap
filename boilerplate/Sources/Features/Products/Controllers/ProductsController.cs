@@ -1,9 +1,9 @@
 ﻿using System.Web.Mvc;
-using SwapWeb.Extensions;
-using SwapWeb.Features.Products.Models;
-using SwapWeb.Features.Products.Services;
+using ScopeWeb.Features.Products.Services;
+using ScopeWeb.Extensions;
+using ScopeWeb.Features.Products.Models;
 
-namespace SwapWeb.Features.Products.Controllers
+namespace ScopeWeb.Features.Products.Controllers
 {
     public class ProductsController : Controller
     {
