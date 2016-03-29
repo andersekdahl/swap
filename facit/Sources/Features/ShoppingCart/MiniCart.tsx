@@ -14,9 +14,9 @@ export default (props: PropType) => (
       {props.cart.items.map(item => (
         <li key={item.product.id} className={styles.item}>
           <span className={styles.description}>{item.product.shortDescription}</span>
-          <button onClick={() => props.decreaseQuantity(item)} className={styles.decrease}>-</button>
+          <button type="button" onClick={() => props.decreaseQuantity(item)} className={styles.decrease}>-</button>
           <span className={styles.quantity}>{item.quantity}</span>
-          <button onClick={() => props.increaseQuantity(item)} className={styles.increase}>+</button>
+          <button type="button" onClick={() => props.increaseQuantity(item)} className={styles.increase}>+</button>
         </li>
       ))}
     </ul>

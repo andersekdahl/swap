@@ -28,9 +28,9 @@ export default () => (
           <ul className={minicartStyles.items}>
               <li className={minicartStyles.item}>
                 <span className={minicartStyles.description}></span>
-                <button className={minicartStyles.decrease}>-</button>
+                <button type="button" className={minicartStyles.decrease}>-</button>
                 <span className={minicartStyles.quantity}></span>
-                <button className={minicartStyles.increase}>+</button>
+                <button type="button" className={minicartStyles.increase}>+</button>
               </li>
           </ul>
           <span className={minicartStyles.total}></span>
