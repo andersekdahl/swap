@@ -39,23 +39,3 @@ export default () => (
     </header>
   </div>
 );
-
-function get<T>(url: string) {
-  return fetch(url)
-    .then(r => r.json())
-    .then((json: T) => {
-      return json;
-    });
-}
-
-function post<T>(url: string, body: any) {
-  return fetch(url, {
-    method: 'post',
-    body: JSON.stringify(body),
-    headers: {'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},
-  })
-    .then(r => r.json())
-    .then((json: T) => {
-      return json;
-    });
-}
